@@ -30,7 +30,7 @@ p {
 }
 
 
-/*input[type="text"],
+input[type="text"],
 input[type="password"],
 input[type="date"],
 input[type="datetime"],
@@ -54,12 +54,12 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
-}*/
+}
 
-/*input[type="radio"],
+input[type="radio"],
 input[type="checkbox"] {
   margin: 0 10px 15px 0;
-}*/
+}
 
 
 input[type="radio"]:checked {
@@ -82,7 +82,7 @@ select {
   border-radius: 2px;
 }
 
-/*button {
+button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
   background-color: skyblue;
@@ -96,7 +96,7 @@ select {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
 }
-*/
+
 fieldset {
   margin-bottom: 10px;
   border: none;
@@ -117,29 +117,16 @@ label.light {
   display: inline;
 }
 
-/*.number {
-  background-color: #5fcf80;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  font-size: 0.8em;
-  margin-right: 4px;
-  line-height: 30px;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-  border-radius: 100%;
-}*/
 
 input[placeholder] {
   text-align: right;
 }
 
-/*div {
+div {
   border-top: 1px solid black;
   padding-top: 30px;
 }
-*/
+
 label[id="newsletter"] {
   padding-top: 10px;
   padding-bottom: 20px;
