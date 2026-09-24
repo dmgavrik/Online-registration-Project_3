@@ -126,3 +126,71 @@ LUSHA_SIZE = {"Ritzio Entertainment Group":"1,001-5,000","Pasha International":"
 LUSHA_HQ = {"Ritzio Entertainment Group":"Nicosia","ClubWPT Gold":"Cyprus","Gaming Point":"Limassol","Opabet":"Nicosia",
  "All The Best Lottos":"Nicosia","in2bet":"Cyprus","Rolletto":"Nicosia","DBbet":"Nicosia","BetWinner":"Nicosia",
  "Pasha International":"Cyprus","EuroCasinoBet":"Cyprus","Wowbet":"Cyprus","Millionaires Gaming Africa":"Cyprus","Lotto Agent":"Cyprus"}
+
+# --- волна 3: реестр UKGC, футеры/платёжные агенты (casino-groups.com), вакансии hh/djinni, Северный Кипр ---
+OFF = "7. Офшорная казино-группа с кипрским юрлицом (платёжный агент/операции)"
+_G = [  # (группа, кипрское юрлицо, город, бренды-примеры)
+ ("Dama N.V.","Friolion Ltd; Strukin Ltd","Limassol","Fastpay, Anubis и др. (крупная сеть SoftSwiss)"),
+ ("Hollycorn N.V.","Libergos Ltd","Nicosia","11Croco, Asino и др."),
+ ("Galaktika N.V.","Unionstar Ltd","Limassol","1Go и др. (8 казино)"),
+ ("Rabidi N.V. / Novaforge / Liernin","Mirata Services Ltd; Tilaros Ltd","Limassol","Zet, 5Gringos, 7Signs, Abuking, Alterspin, Aquaspins"),
+ ("TechSolutions Group N.V.","TechSolutions (CY) Group Ltd","Nicosia","20Bet, 22Bet, 22Bit"),
+ ("Techoptions Group B.V.","Techoptions (CY) Group Ltd","Nicosia","22Bet, 22Bit"),
+ ("Altacore N.V.","Altaprime Ltd","Nicosia","Atefia и др."),
+ ("Bellona N.V.","Arzelle Ltd","Nicosia","1Bet, 777Vault"),
+ ("Starscream Ltd / Boni Tech Ltd","Stardust Global CCS Ltd","Larnaca","AllStarz, Anarchy"),
+ ("Buscarar SRL","HE 477932","Nicosia",""),
+ ("Casiworx N.V.","Xenith Ltd","Nicosia",""),
+ ("Damagi Marketing Solutions Ltd","Damagi Marketing Solutions Ltd","Nicosia",""),
+ ("Deep Dive Tech B.V.","(кипрская дочка)","Limassol","Bitdreams"),
+ ("EOD Code SRL / Simba N.V. / Igloo Ventures SRL","Sand Tech Services Ltd","Nicosia","Betiro"),
+ ("Eventa Digital Limitada","QuantumPulse Interactive Services Ltd","Limassol",""),
+ ("Famagousta B.V.","Fodenmacko Trading Co. Ltd","Nicosia","21Bets, 4Kasino"),
+ ("Fortuna Games N.V.","Deltaprime Ltd","Nicosia",""),
+ ("GBL Solutions N.V.","Ramtinar Techconsult Ltd","Nicosia","Azurslot"),
+ ("Goodwin N.V.","Luckyluck Ltd","Limassol",""),
+ ("Green Champions Leader SRL","Widoma Trading Co. Ltd","Nicosia","Andromedasino"),
+ ("Grey Goat Limitada","HE 467323","Limassol","Bitdreams"),
+ ("Mirage Corporation N.V.","Mirage Ent. Corporation (Cyprus) Ltd","Nicosia","Betroom24"),
+ ("Modern World Entertainment B.V.","Resmea Ltd","Nicosia","Anadol24"),
+ ("Mountberg B.V.","Mountberg Ltd","Nicosia","Arlequin"),
+ ("NewEra B.V.","NewEra Cyprus Ltd","Nicosia","777Vault"),
+ ("Next Global Era Ltd","Next Global Era Cyprus Ltd","Nicosia","казино на платформе Delasport"),
+ ("Njord Ventures B.V.","Njord Vantage Services Ltd","Limassol","Buumi; поддержка, платежи и управление — с Кипра"),
+ ("Ryker B.V.","Ryker Development Ltd","Larnaca","20Bets"),
+ ("Santeda International B.V.","Santeda International Ltd","Larnaca","Betride"),
+ ("Softgenius N.V.","Softgenius Applications Ltd","Cyprus",""),
+ ("TGI Entertainment N.V.","Spervi Ltd","Latsia, Nicosia","Betlive"),
+ ("Versus Odds B.V.","Deloraze Ltd","Nicosia",""),
+ ("Willx N.V.","XLNC Ltd","Lakatamia, Nicosia",""),
+ ("WoT N.V.","Limesco Ltd","Limassol","AMPM"),
+ ("Carletta N.V. (Pinco)","Liriona Ltd","Limassol","Pinco"),
+ ("Riviera Entertainment N.V.","CPG Management Ltd","Limassol","Riviera Casino"),
+ ("Lone Rock Holdings N.V. (BetInAsia)","Fallback Ruler Ltd","Nicosia","BetInAsia"),
+ ("Comentive Ltd","Norvelic Ltd","Nicosia","Super Spin, Rolly Spin"),
+]
+for g,e,c,b in _G:
+    ROWS.append((OFF,g,f"{e} ({c})","",[],"casino-groups.com / футеры казино / FinTelegram",'medium',
+                 ("Бренды: "+b+". " if b else "")+"Часто без лицензии в странах ЕС — проверить комплаенс-риски"))
+ROWS += [
+ (ONL,"DC Bet (Playterry Ltd)","Playterry Ltd — лицензия UKGC","https://www.dcbet.com",["dcbet","playterry"],"Реестр UKGC (адрес Limassol)",'high',""),
+ (ONL,"ProgressPlay","ProgressPlay Ltd — лицензии UKGC B2C","https://progressplay.com",["progressplay"],"Реестр UKGC (адрес Limassol)",'medium',"White-label: и оператор (лицензия B2C), и платформа"),
+ (ONL,"Full Force Gaming Group","DialMedia Ltd и др.","https://fullforce.com",["full-force-gaming-group"],"casino-groups.com (HQ Larnaca), Lusha",'medium',""),
+ (ONL,"Leon Gaming (L.C.S. Ltd, CW Marketing)","L.C.S. Limited","",["leon-gaming","leongaming"],"casino-groups.com (Strovolos)",'medium',"Бренды: Betbay и др."),
+ (ONL,"STARTRIBE LTD","STARTRIBE LTD","",["startribe"],"Вакансии hh.ru (Кипр): Product Owner Lobby & Loyalty, Account Manager",'low',"Похоже на B2C-казино, проверить"),
+ (ONL,"betviro.com","betviro","https://betviro.com",["betviro"],"Вакансии Djinni (Кипр)",'low',""),
+]
+for n,loc in [("Arkin Group (Colony, Palm Beach)","Kyrenia/Famagusta"),("Cratos Premium Hotel & Casino","Kyrenia"),("Jasmine Court Hotel & Casino","Kyrenia"),
+              ("Malpas Hotel & Casino","Kyrenia"),("Rocks Hotel & Casino","Kyrenia"),("Salamis Bay Conti","Famagusta"),
+              ("Acapulco Beach Club & Casino","Kyrenia"),("Golden Tulip Nicosia Casino","Lefkoşa"),("Noah's Ark Casino","Bafra")]:
+    ROWS.append((NC,n,"",f"",[],f"World Casino Directory ({loc})",'medium',"Наземное казино"))
+# SkillOnNet: по реестру UKGC адрес — Limassol → переносим в группу 2
+ROWS[:] = [(ONL,)+r[1:5]+("Реестр UKGC (адрес Limassol), вакансии LinkedIn",'high',"Бренды PlayOJO и др.") if r[1].startswith("SkillOnNet") else r for r in ROWS]
+LUSHA_LI["Full Force Gaming Group"]="https://www.linkedin.com/company/full-force-gaming-group"
+
+_NC_SLUGS={"Arkin Group (Colony, Palm Beach)":["arkin-group","arkinhotels"],"Cratos Premium Hotel & Casino":["cratos-premium-hotel-casino","cratospremium"],
+ "Jasmine Court Hotel & Casino":["jasmine-court-hotel-casino","jasminecourt"],"Malpas Hotel & Casino":["malpas-hotel-casino","malpashotel"],
+ "Rocks Hotel & Casino":["rocks-hotel-casino","rockshotel"],"Salamis Bay Conti":["salamis-bay-conti-resort-hotel-casino","salamisbayconti"],
+ "Acapulco Beach Club & Casino":["acapulco-beach-club-resort","acapulcoresort"],"Noah's Ark Casino":["noahs-ark-deluxe-hotel-casino"],
+ "Golden Tulip Nicosia Casino":["golden-tulip-nicosia"]}
+ROWS[:] = [r[:4]+(_NC_SLUGS.get(r[1],r[4]),)+r[5:] for r in ROWS]
