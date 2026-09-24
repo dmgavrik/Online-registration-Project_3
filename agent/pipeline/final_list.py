@@ -89,3 +89,40 @@ ROWS = [
  (NC,"Concorde Casinos","Concorde","https://concordecasinos.com",["concorde-casinos","concordecasinos"],"Apollo",'medium',""),
  (NC,"Kaya Artemis","Kaya Artemis","https://kayaartemis.com.tr",["kaya-artemis","kayaartemis"],"Apollo",'medium',""),
 ]
+
+# --- добавлено по результатам поиска Lusha (Cyprus + Gambling Facilities & Casinos, 132 компании) ---
+ROWS += [
+ (LAND,"Ritzio Entertainment Group","Ritzio (игровые залы)","https://www.ritzio.eu",[],"Lusha (HQ Nicosia)",'medium',"Оператор игровых залов в Европе/СНГ"),
+ (NC,"Pasha International","Pasha (казино)","https://www.pashainternational.com",[],"Lusha",'medium',"Казино-оператор"),
+ (ONL,"ClubWPT Gold","ClubWPT Gold (покер)","https://www.clubwptgold.com",[],"Lusha",'medium',"Покер, sweepstakes"),
+ (ONL,"Gaming Point","Gaming Point — Online Casino & Sports Betting","https://www.gamingpoint.co",[],"Lusha, Apollo, StepRole (Limassol)",'medium',"Есть партнёрка GamingPoint Affiliates"),
+ (ONL,"EuroCasinoBet","EuroCasinoBet Ltd","https://www.eurocasinobet.com",[],"Lusha",'low',""),
+ (ONL,"Wowbet","Wowbet","https://www.wowbet.win",[],"Lusha (страница партнёрки)",'low',""),
+ (ONL,"Opabet","Opabet","https://www.opabet.com",[],"Lusha (страница партнёрки, Nicosia)",'low',""),
+ (ONL,"Millionaires Gaming Africa","Millionaires Gaming","https://www.millionairesgamingafrica.com",[],"Lusha",'low',"Рынок Африки"),
+ (ONL,"All The Best Lottos","Онлайн-лотереи","https://www.allthebestlottos.com",[],"Lusha (Nicosia)",'low',"Лотереи"),
+ (ONL,"Lotto Agent","Онлайн-лотереи","https://www.agentlotto.com",[],"Lusha",'low',"Лотереи"),
+]
+# LinkedIn из базы Lusha (приоритет, если прямая проверка не удалась)
+LUSHA_LI = {
+ "in2bet":"https://www.linkedin.com/company/in2bet-cy",
+ "Rolletto":"https://www.linkedin.com/company/rolletto-com",
+ "DBbet":"https://www.linkedin.com/company/dbbet-team",
+ "Megabet Plus / Scorebet":"https://www.linkedin.com/company/megabetplus",
+ "Ritzio Entertainment Group":"https://www.linkedin.com/company/ritzio-entertainment-group",
+ "Pasha International":"https://www.linkedin.com/company/pasha-international",
+ "ClubWPT Gold":"https://www.linkedin.com/company/clubwptgold",
+ "Gaming Point":"https://www.linkedin.com/company/gaming-point",
+ "EuroCasinoBet":"https://www.linkedin.com/company/eurocasinobet-ltd",
+ "Wowbet":"https://www.linkedin.com/company/wowbet-parthers",
+ "Opabet":"https://www.linkedin.com/company/opabet",
+ "Millionaires Gaming Africa":"https://www.linkedin.com/company/millionaires-gaming-africa-ghana",
+ "All The Best Lottos":"https://www.linkedin.com/company/allthebestlottos",
+ "Lotto Agent":"https://www.linkedin.com/company/lotto-agent",
+}
+LUSHA_SIZE = {"Ritzio Entertainment Group":"1,001-5,000","Pasha International":"5,001-10,000","ClubWPT Gold":"51-200",
+ "Gaming Point":"11-50","EuroCasinoBet":"11-50","Wowbet":"51-200","Opabet":"11-50","Millionaires Gaming Africa":"1,001-5,000",
+ "All The Best Lottos":"201-500","Lotto Agent":"11-50","in2bet":"11-50","Rolletto":"51-200","DBbet":"51-200","BetWinner":"201-500"}
+LUSHA_HQ = {"Ritzio Entertainment Group":"Nicosia","ClubWPT Gold":"Cyprus","Gaming Point":"Limassol","Opabet":"Nicosia",
+ "All The Best Lottos":"Nicosia","in2bet":"Cyprus","Rolletto":"Nicosia","DBbet":"Nicosia","BetWinner":"Nicosia",
+ "Pasha International":"Cyprus","EuroCasinoBet":"Cyprus","Wowbet":"Cyprus","Millionaires Gaming Africa":"Cyprus","Lotto Agent":"Cyprus"}

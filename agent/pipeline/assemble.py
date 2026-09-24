@@ -1,5 +1,5 @@
 import csv, json, re
-from final_list import ROWS
+from final_list import ROWS, LUSHA_LI, LUSHA_SIZE, LUSHA_HQ
 
 db = json.load(open("li_db.json"))
 OUT = "../results/cyprus_igaming_operators.csv"
@@ -35,6 +35,8 @@ FALLBACK = {  # найдены в поисковой выдаче, но гост
 out = []
 for r in ROWS:
     d = pick(r)
+    if not d and r[1] in LUSHA_LI:
+        d = {"url": LUSHA_LI[r[1]], "Headquarters": LUSHA_HQ.get(r[1], ""), "Company size": LUSHA_SIZE.get(r[1], ""), "lusha": True}
     if not d and r[1] in FALLBACK:
         d = {"url": FALLBACK[r[1]], "search_only": True}
     out.append([r[0], r[1], r[2], r[3],
@@ -42,7 +44,7 @@ for r in ROWS:
                 (d.get("Headquarters") or d.get("locality", "")) if d else "",
                 d.get("Company size", "").replace(" employees", "") if d else "",
                 d.get("Industry", "") if d else "",
-                r[5] + ("; LinkedIn — из поисковой выдачи" if d and d.get("search_only") else ""), r[6], r[7] if d else (r[7] + "; LinkedIn не найден").strip("; ")])
+                r[5] + ("; LinkedIn — из поисковой выдачи" if d and d.get("search_only") else "") + ("; LinkedIn — из Lusha" if d and d.get("lusha") else ""), r[6], r[7] if d else (r[7] + "; LinkedIn не найден").strip("; ")])
 out.sort(key=lambda x: (x[0], {"high": 0, "medium": 1, "low": 2}[x[9]], x[1].lower()))
 with open(OUT, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(hdr); w.writerows(out)
