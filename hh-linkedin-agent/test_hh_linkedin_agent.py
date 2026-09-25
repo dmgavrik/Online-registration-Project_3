@@ -101,3 +101,26 @@ def test_agent_skips_vacancy_without_word(monkeypatch):
     monkeypatch.setattr(a, "fetch_vacancy",
                         lambda http, vid: {"description": "<p>Без упоминаний</p>"})
     assert a.Agent(http=None, web=FakeWeb([])).process(1) is None
+
+
+def test_search_vacancy_ids_dedupes_across_pages(monkeypatch):
+    pages = [
+        {"vacancies": [{"vacancyId": 1}, {"vacancyId": 2}], "totalResults": 3,
+         "paging": {"next": {"disabled": False}}},
+        {"vacancies": [{"vacancyId": 1}, {"vacancyId": 3}],
+         "paging": {"next": {"disabled": True}}},
+    ]
+
+    class Resp:
+        def __init__(self, state):
+            self.text = state
+
+        def raise_for_status(self):
+            pass
+
+    class FakeHttp:
+        def get(self, url, params):
+            return Resp(pages[params["page"]])
+
+    monkeypatch.setattr(a, "parse_state", lambda state: {"vacancySearchResult": state})
+    assert list(a.search_vacancy_ids(FakeHttp(), "linkedin", None)) == [1, 2, 3]

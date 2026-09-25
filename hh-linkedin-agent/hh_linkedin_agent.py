@@ -110,7 +110,7 @@ def parse_state(page_html: str) -> dict:
 
 def search_vacancy_ids(http: Http, query: str, limit: int | None) -> Iterator[int]:
     page = 0
-    seen = 0
+    seen: set[int] = set()  # премиум-вакансии повторяются на разных страницах
     while True:
         resp = http.get(
             f"{HH_BASE}/search/vacancy",
@@ -133,9 +133,12 @@ def search_vacancy_ids(http: Http, query: str, limit: int | None) -> Iterator[in
                 )
         vacancies = result.get("vacancies") or []
         for v in vacancies:
-            yield int(v["vacancyId"])
-            seen += 1
-            if limit and seen >= limit:
+            vid = int(v["vacancyId"])
+            if vid in seen:
+                continue
+            seen.add(vid)
+            yield vid
+            if limit and len(seen) >= limit:
                 return
         nxt = (result.get("paging") or {}).get("next") or {}
         if not vacancies or nxt.get("disabled", True):
