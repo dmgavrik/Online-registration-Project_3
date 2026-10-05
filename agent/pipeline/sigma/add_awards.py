@@ -9,8 +9,7 @@ PICK = {"Roman Casino": "roman-casino", "VBET": "vbet-official", "ArenaPlus": "a
         "Vegas Legends": "vegas-legends", "Gamdom": "gamdom-com", "Nine Casino": "nine-casino", "Highbet": "highbet",
         "PariPesa": "paripesa", "Roobet": "roobet-com", "Balkan Bet": "balkan-bet", "Brazino777": "brazino777",
         "Izibet": "izibet", "Kaizen Gaming (Betano)": "kaizen-gaming", "RocketPlay Casino": "rocketplay-casino",
-        "Flutter (PokerStars, FanDuel)": "flutter-entertainment", "Betclic": "betclicgroup",
-        "Unibet (Kindred / FDJ)": "kindred", "Meridianbet": "meridian-tech"}
+        "Flutter (PokerStars, FanDuel)": "flutter-entertainment", "Betclic": "betclicgroup"}  # kindred, meridian-tech — ложные совпадения
 NOTE = {"Roman Casino": "HQ в LinkedIn указан Сиэтл — проверить, та ли компания",
         "Brazino777": "Найдена страница Brazino777 BELARUS",
         "Izibet": "Страница LinkedIn почти пустая",
