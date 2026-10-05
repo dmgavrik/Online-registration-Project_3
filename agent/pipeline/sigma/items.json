@@ -1,0 +1,1402 @@
+[
+{
+"name": "WEEZYBET",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"weezybet",
+"weezybet-official"
+]
+},
+{
+"name": "Coins.Game",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"coinsgame",
+"coins-game",
+"coinsgame-official"
+]
+},
+{
+"name": "SpinBetter",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"spinbetter",
+"spinbetter-official"
+]
+},
+{
+"name": "BONUSBET CASINO",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bonusbet",
+"bonusbetcasino"
+]
+},
+{
+"name": "JackWin",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"jackwin",
+"jackwin-official"
+]
+},
+{
+"name": "7BitCasino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"7bitcasino",
+"7bitcasinocasino"
+]
+},
+{
+"name": "Buumi",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"buumi",
+"buumi-official"
+]
+},
+{
+"name": "Bspin.io",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bspinio",
+"bspin-io",
+"bspinio-official"
+]
+},
+{
+"name": "Admiral Bet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"admiralbet",
+"admiral-bet",
+"admiralbet-official"
+]
+},
+{
+"name": "Mostbet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"mostbet",
+"mostbet-official"
+]
+},
+{
+"name": "YOJU Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"yoju",
+"yojucasino"
+]
+},
+{
+"name": "Pin-Up Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"pinup",
+"pin-up",
+"pinupcasino"
+]
+},
+{
+"name": "Vulkan Vegas",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"vulkanvegas",
+"vulkan-vegas",
+"vulkanvegas-official"
+]
+},
+{
+"name": "BetFury",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betfury",
+"betfury-official"
+]
+},
+{
+"name": "Novibet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"novibet",
+"novibet-official"
+]
+},
+{
+"name": "Vai de Bob",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"vaidebob",
+"vai-de-bob",
+"vaidebob-official"
+]
+},
+{
+"name": "Kajot",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"kajot",
+"kajot-official"
+]
+},
+{
+"name": "Sol Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"sol",
+"solcasino"
+]
+},
+{
+"name": "Betfred Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betfred",
+"betfredcasino"
+]
+},
+{
+"name": "Mr Rex",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"mrrex",
+"mr-rex",
+"mrrex-official"
+]
+},
+{
+"name": "Shadowbit Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"shadowbit",
+"shadowbitcasino"
+]
+},
+{
+"name": "WILDPHARAO",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"wildpharao",
+"wildpharao-official"
+]
+},
+{
+"name": "Bruno Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bruno",
+"brunocasino"
+]
+},
+{
+"name": "BC Game Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bcgame",
+"bc-game",
+"bcgamecasino"
+]
+},
+{
+"name": "Vavada",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"vavada",
+"vavada-official"
+]
+},
+{
+"name": "Casino Days",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"days",
+"dayscasino"
+]
+},
+{
+"name": "YouWin",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"youwin",
+"youwin-official"
+]
+},
+{
+"name": "Cosmolot",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"cosmolot",
+"cosmolot-official"
+]
+},
+{
+"name": "Fairspin",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"fairspin",
+"fairspin-official"
+]
+},
+{
+"name": "Zaza",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"zaza",
+"zaza-official"
+]
+},
+{
+"name": "Joker",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"joker",
+"joker-official"
+]
+},
+{
+"name": "Dolcevita",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"dolcevita",
+"dolcevita-official"
+]
+},
+{
+"name": "FoggyStar",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"foggystar",
+"foggystar-official"
+]
+},
+{
+"name": "Wildz",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"wildz",
+"wildz-official"
+]
+},
+{
+"name": "Slots Palace",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"slotspalace",
+"slots-palace",
+"slotspalace-official"
+]
+},
+{
+"name": "True Flip",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"trueflip",
+"true-flip",
+"trueflip-official"
+]
+},
+{
+"name": "Twin",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"twin",
+"twin-official"
+]
+},
+{
+"name": "Ultra Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"ultra",
+"ultracasino"
+]
+},
+{
+"name": "Unique Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"unique",
+"uniquecasino"
+]
+},
+{
+"name": "Videoslots",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"videoslots",
+"videoslots-official"
+]
+},
+{
+"name": "VoodooDreams Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"voodoodreams",
+"voodoodreamscasino"
+]
+},
+{
+"name": "West Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"west",
+"westcasino"
+]
+},
+{
+"name": "Winbet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"winbet",
+"winbet-official"
+]
+},
+{
+"name": "Winz",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"winz",
+"winz-official"
+]
+},
+{
+"name": "Wishmaker",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"wishmaker",
+"wishmaker-official"
+]
+},
+{
+"name": "Wunderino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"wunderino",
+"wunderino-official"
+]
+},
+{
+"name": "Royal Panda",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"royalpanda",
+"royal-panda",
+"royalpanda-official"
+]
+},
+{
+"name": "Queen Vegas",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"queenvegas",
+"queen-vegas",
+"queenvegas-official"
+]
+},
+{
+"name": "PlayOJO Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"playojo",
+"playojocasino"
+]
+},
+{
+"name": "Oshi Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"oshi",
+"oshicasino"
+]
+},
+{
+"name": "N1 Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"n1",
+"n1casino"
+]
+},
+{
+"name": "MrQ Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"mrq",
+"mrqcasino"
+]
+},
+{
+"name": "MrMega Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"mrmega",
+"mrmegacasino"
+]
+},
+{
+"name": "Duelz Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"duelz",
+"duelzcasino"
+]
+},
+{
+"name": "Casiplay Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"casiplay",
+"casiplaycasino"
+]
+},
+{
+"name": "Casumo",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"casumo",
+"casumo-official"
+]
+},
+{
+"name": "ComeOn!",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"comeon",
+"comeon-official"
+]
+},
+{
+"name": "Favbet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"favbet",
+"favbet-official"
+]
+},
+{
+"name": "GGPoker",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"ggpoker",
+"ggpoker-official"
+]
+},
+{
+"name": "GreenSpin",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"greenspin",
+"greenspin-official"
+]
+},
+{
+"name": "Jackpotjoy",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"jackpotjoy",
+"jackpotjoy-official"
+]
+},
+{
+"name": "Karamba Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"karamba",
+"karambacasino"
+]
+},
+{
+"name": "King Billy",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"kingbilly",
+"king-billy",
+"kingbilly-official"
+]
+},
+{
+"name": "lapalingo",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"lapalingo",
+"lapalingo-official"
+]
+},
+{
+"name": "MEGAWAYS Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"megaways",
+"megawayscasino"
+]
+},
+{
+"name": "Megaslot",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"megaslot",
+"megaslot-official"
+]
+},
+{
+"name": "Mason Slots",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"masonslots",
+"mason-slots",
+"masonslots-official"
+]
+},
+{
+"name": "Konung Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"konung",
+"konungcasino"
+]
+},
+{
+"name": "LuckyNiki",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"luckyniki",
+"luckyniki-official"
+]
+},
+{
+"name": "LuckyDino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"luckydino",
+"luckydino-official"
+]
+},
+{
+"name": "Luckia",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"luckia",
+"luckia-official"
+]
+},
+{
+"name": "Lord Of The Spins",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"lordofthespins",
+"lord-of-the-spins",
+"lordofthespins-official"
+]
+},
+{
+"name": "LeoVegas",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"leovegas",
+"leovegas-official"
+]
+},
+{
+"name": "1xBet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"1xbet",
+"1xbet-official"
+]
+},
+{
+"name": "21.com",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"21com",
+"21-com",
+"21com-official"
+]
+},
+{
+"name": "22Bet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"22bet",
+"22bet-official"
+]
+},
+{
+"name": "888Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"888casino",
+"888casinocasino"
+]
+},
+{
+"name": "90Dakika",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"90dakika",
+"90dakika-official"
+]
+},
+{
+"name": "AHTI Games Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"ahtigames",
+"ahti-games",
+"ahtigamescasino"
+]
+},
+{
+"name": "All Wins Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"allwins",
+"all-wins",
+"allwinscasino"
+]
+},
+{
+"name": "Betsafe",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betsafe",
+"betsafe-official"
+]
+},
+{
+"name": "Betsson",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betsson",
+"betsson-official"
+]
+},
+{
+"name": "BetVictor",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betvictor",
+"betvictor-official"
+]
+},
+{
+"name": "BetWinner",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betwinner",
+"betwinner-official"
+]
+},
+{
+"name": "BitStarz",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bitstarz",
+"bitstarz-official"
+]
+},
+{
+"name": "BOSS Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"boss",
+"bosscasino"
+]
+},
+{
+"name": "BoyleSports Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"boylesports",
+"boylesportscasino"
+]
+},
+{
+"name": "Cadabrus",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"cadabrus",
+"cadabrus-official"
+]
+},
+{
+"name": "CashiMashi",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"cashimashi",
+"cashimashi-official"
+]
+},
+{
+"name": "Cashmio",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"cashmio",
+"cashmio-official"
+]
+},
+{
+"name": "Casino Planet",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"planet",
+"planetcasino"
+]
+},
+{
+"name": "CasinoEuro",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"casinoeuro",
+"casinoeurocasino"
+]
+},
+{
+"name": "14Red Casino",
+"cat": "C",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"14red",
+"14redcasino"
+]
+},
+{
+"name": "CMD368",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"cmd368",
+"cmd368-official"
+]
+},
+{
+"name": "Sportbet",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"sportbet",
+"sportbet-official"
+]
+},
+{
+"name": "GG.BET",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"ggbet",
+"gg-bet",
+"ggbet-official"
+]
+},
+{
+"name": "BetPlanet Ghana",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betplanetghana",
+"betplanet-ghana",
+"betplanetghana-official"
+]
+},
+{
+"name": "AccessBET",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"accessbet",
+"accessbet-official"
+]
+},
+{
+"name": "18Bet",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"18bet",
+"18bet-official"
+]
+},
+{
+"name": "Conquestador Sportsbook",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"conquestador",
+"conquestador-official"
+]
+},
+{
+"name": "Yabo",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"yabo",
+"yabo-official"
+]
+},
+{
+"name": "BetAndYou",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betandyou",
+"betandyou-official"
+]
+},
+{
+"name": "DoradoBet",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"doradobet",
+"doradobet-official"
+]
+},
+{
+"name": "MelBet",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"melbet",
+"melbet-official"
+]
+},
+{
+"name": "Parimatch",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"parimatch",
+"parimatch-official"
+]
+},
+{
+"name": "William Hill",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"williamhill",
+"william-hill",
+"williamhill-official"
+]
+},
+{
+"name": "Tipico",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"tipico",
+"tipico-official"
+]
+},
+{
+"name": "SBOBET",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"sbobet",
+"sbobet-official"
+]
+},
+{
+"name": "Rabona",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"rabona",
+"rabona-official"
+]
+},
+{
+"name": "Pinnacle",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"pinnacle",
+"pinnacle-official"
+]
+},
+{
+"name": "Netbet",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"netbet",
+"netbet-official"
+]
+},
+{
+"name": "Mr Green Sportsbook",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"mrgreen",
+"mr-green",
+"mrgreen-official"
+]
+},
+{
+"name": "MegaPari Sportsbook",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"megapari",
+"megapari-official"
+]
+},
+{
+"name": "Ladbrokes",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"ladbrokes",
+"ladbrokes-official"
+]
+},
+{
+"name": "Intertops",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"intertops",
+"intertops-official"
+]
+},
+{
+"name": "FanDuel Sportsbook",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"fanduel",
+"fanduel-official"
+]
+},
+{
+"name": "DraftKings Sportsbook",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"draftkings",
+"draftkings-official"
+]
+},
+{
+"name": "Bwin",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bwin",
+"bwin-official"
+]
+},
+{
+"name": "Betway",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betway",
+"betway-official"
+]
+},
+{
+"name": "Bethard",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bethard",
+"bethard-official"
+]
+},
+{
+"name": "Betfair",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betfair",
+"betfair-official"
+]
+},
+{
+"name": "Betcris",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"betcris",
+"betcris-official"
+]
+},
+{
+"name": "Bet365",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"bet365",
+"bet365-official"
+]
+},
+{
+"name": "22Bet Sportsbook",
+"cat": "S",
+"src": "sigma.world (ваш список)",
+"slugs": [
+"22bet",
+"22bet-official"
+]
+},
+{
+"name": "v.partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "info@v.partners",
+"site": "v.partners",
+"slugs": [
+"v",
+"vpartners",
+"v-partners"
+]
+},
+{
+"name": "BeastPartners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Поставщик букмекерских решений",
+"email": "mary@velobet.com",
+"site": "beastpartners.com",
+"slugs": [
+"beastpartners",
+"beastpartners-official"
+]
+},
+{
+"name": "BLAZE",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "amanda.schramm@blaze.com",
+"site": "blaze.bet.br",
+"slugs": [
+"blaze",
+"blaze-official"
+]
+},
+{
+"name": "Dragon Money",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "petr.a@dragon-partners.com",
+"site": "dragon-partners.com",
+"slugs": [
+"dragon-partners",
+"dragonmoney",
+"dragon-money"
+]
+},
+{
+"name": "Jackbit",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "lado@jackbit.com",
+"site": "jackbit.com",
+"slugs": [
+"jackbit",
+"jackbit-official"
+]
+},
+{
+"name": "Kawaii Partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "soner@kawaii.partners",
+"site": "kawaii.partners",
+"slugs": [
+"kawaii",
+"kawaiipartners",
+"kawaii-partners"
+]
+},
+{
+"name": "Kirgo",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "nick.bobir@kirgo.com",
+"site": "kirgo.com",
+"slugs": [
+"kirgo",
+"kirgo-official"
+]
+},
+{
+"name": "KNG Partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "lena@kngpartners.com",
+"site": "kngpartners.com",
+"slugs": [
+"kngpartners",
+"kng-partners",
+"kngpartners-official"
+]
+},
+{
+"name": "Linebet",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Букмекерская компания",
+"email": "alexandra.r@linebet.com",
+"site": "linebet.com",
+"slugs": [
+"linebet",
+"linebet-official"
+]
+},
+{
+"name": "MyStake",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "georgemystake@gmail.com",
+"site": "mystake.com",
+"slugs": [
+"mystake",
+"mystake-official"
+]
+},
+{
+"name": "Netwin",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "giovanni.finestrone@netwin.it",
+"site": "",
+"slugs": [
+"netwin",
+"netwin-official"
+]
+},
+{
+"name": "Rocks Partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "tom@rocks.partners",
+"site": "rocks.partners",
+"slugs": [
+"rocks",
+"rockspartners",
+"rocks-partners"
+]
+},
+{
+"name": "Royal Partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "dante@royalpartners.com",
+"site": "royal.partners",
+"slugs": [
+"royal",
+"royalpartners",
+"royal-partners"
+]
+},
+{
+"name": "STARCROWN",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "kristinen@starcrown.partners",
+"site": "starcrown.partners",
+"slugs": [
+"starcrown",
+"starcrown-official"
+]
+},
+{
+"name": "Super Partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "sorina.stefanescu@superpartners.com",
+"site": "superpartners.com",
+"slugs": [
+"superpartners",
+"super-partners",
+"superpartners-official"
+]
+},
+{
+"name": "Thewolfpartners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "kemal@thewolfpartners.org",
+"site": "",
+"slugs": [
+"thewolfpartners",
+"thewolfpartners-official"
+]
+},
+{
+"name": "TITANS",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "hello@titans.net",
+"site": "titans.net",
+"slugs": [
+"titans",
+"titans-official"
+]
+},
+{
+"name": "Tonybet",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "evelyna.sladnikova@tonybet.com",
+"site": "",
+"slugs": [
+"tonybet",
+"tonybet-official"
+]
+},
+{
+"name": "Tornike Okson",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "tornikeok@casinok.com",
+"site": "casinok.com",
+"slugs": [
+"casinok",
+"tornikeokson",
+"tornike-okson"
+]
+},
+{
+"name": "Vincenzo Wrofino",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "vincenzo.orofino@codere.com",
+"site": "codere.it",
+"slugs": [
+"codere",
+"vincenzowrofino",
+"vincenzo-wrofino"
+]
+},
+{
+"name": "WINWIN Partners",
+"cat": "shot",
+"src": "Ваш список (скрин)",
+"type": "Оператор казино",
+"email": "event@winwin.bet",
+"site": "winwinbet.partners",
+"slugs": [
+"winwinbet",
+"winwinpartners",
+"winwin-partners"
+]
+}
+]
