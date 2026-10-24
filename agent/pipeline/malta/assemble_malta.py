@@ -44,6 +44,24 @@ NOTE = {
 }
 if "P2P Entertainment Limited" in PICK: PICK.pop("P2P Entertainment Limited"); PICK.pop("True Flip Gaming Ltd")
 
+# найдено через Lusha (companies_search, превью без раскрытия): юрлицо -> (LinkedIn, HQ, сотрудников, заметка)
+LUSHA = {
+ "Meridian Gaming Limited": ("https://www.linkedin.com/company/meridian-sports", "Limassol, Cyprus", "11-50", "LinkedIn кипрского юрлица Meridian Gaming (CY)"),
+ "Avento MT Limited": ("https://www.linkedin.com/company/aventogroup", "Ta' Xbiex, Malta", "51-200", "Avento Group"),
+ "Bestbet Limited": ("https://www.linkedin.com/company/bestbet-com-ltd", "London, UK", "1-10", ""),
+ "Rebels Gaming Limited": ("https://www.linkedin.com/company/rebels-gaming-ltd", "Malta", "1-10", ""),
+ "Buddybet Malta Limited": ("https://www.linkedin.com/company/buddybet-australia", "Melbourne, Australia", "51-200", "Buddybet Group"),
+ "Dialmedia Limited": ("https://www.linkedin.com/company/full-force-gaming-group", "Larnaca, Cyprus", "51-200", "Full Force Gaming Group"),
+ "Dragonara Gaming Limited": ("https://www.linkedin.com/company/dragonaracasino", "St Julian's, Malta", "51-200", ""),
+ "FairBet Limited": ("https://www.linkedin.com/company/fairbet.org", "Malta", "1-10", "FairBet.org"),
+ "Interwetten Gaming Limited": ("https://www.linkedin.com/company/interwetten-group", "Sliema, Malta", "51-200", "Interwetten Group"),
+ "One Casino Limited": ("https://www.linkedin.com/company/one-casino", "Ta' Xbiex, Malta", "11-50", ""),
+ "Palasino Malta Limited": ("https://www.linkedin.com/company/trans-world-hotels-entertainment-a-s-", "Česká Kubice, Czechia", "501-1,000", "Материнская Palasino Group (TWHE)"),
+ "Realm Entertainment Limited": ("https://www.linkedin.com/company/realmentertainment", "Sliema, Malta", "11-50", ""),
+ "Stanleybet Malta Limited": ("https://www.linkedin.com/company/stanleybet-limited", "Liverpool, UK", "1-10", "Страница британского юрлица Stanleybet — проверить"),
+ "TV GLOBAL ENTERPRISES LTD": ("https://www.linkedin.com/company/tvglobaltnterprises", "Ta' Xbiex, Malta", "1-10", ""),
+}
+
 def norm(s): return re.sub(r"[^a-z0-9]", "", s.lower())
 user_slugs, user_names = {}, {}
 for sheet, rows in done.items():
@@ -68,12 +86,14 @@ for n, reg, auth, typ in L:
     if "@" in e: g["emails"].add(e.split("@")[-1].lower())
     if d.get("status"): g["status"].add(d["status"])
     if PICK.get(n): g["slug"] = g["slug"] or PICK[n]
+    if n in LUSHA and not g.get("lusha"): g["lusha"] = LUSHA[n]
     for x in (b[3] if b else "", NOTE.get(n, "")):
         if x and x not in g["notes"]: g["notes"].append(x)
 
 out = []
 for brand, g in groups.items():
     d = db.get(g["slug"], {}) if g["slug"] else {}
+    lu = None if g["slug"] else g.get("lusha")
     hit = None
     if g["slug"] and g["slug"].lower() in user_slugs: hit = user_slugs[g["slug"].lower()]
     if not hit:
@@ -83,11 +103,12 @@ for brand, g in groups.items():
     out.append({"Бренд / группа": brand, "Юрлицо в реестре MGA": "; ".join(dict.fromkeys(g["ents"])),
         "Лицензия MGA": "; ".join(dict.fromkeys(g["auth"])), "Вертикаль": g["kind"],
         "Статус лицензии": ", ".join(sorted(g["status"])) or "Licensed", "Домен из email (MGA)": ", ".join(sorted(g["emails"] - {"n/a"})),
-        "LinkedIn": "https://www.linkedin.com/company/" + g["slug"] if g["slug"] else "",
-        "HQ по LinkedIn": d.get("Headquarters") or d.get("locality") or "", "Сотрудников": (d.get("Company size") or "").replace(" employees", ""),
+        "LinkedIn": "https://www.linkedin.com/company/" + g["slug"] if g["slug"] else (lu[0] if lu else ""),
+        "HQ по LinkedIn": d.get("Headquarters") or d.get("locality") or (lu[1] if lu else ""),
+        "Сотрудников": (d.get("Company size") or "").replace(" employees", "") or (lu[2] if lu else ""),
         "Отрасль (LinkedIn)": d.get("Industry") or "",
         "Уже в вашем файле": f"да — лист {hit[0]} ({hit[1]})" if hit else "",
-        "Заметки": "; ".join(g["notes"])})
+        "Заметки": "; ".join(g["notes"] + ([x for x in (lu[3], "LinkedIn — из Lusha") if x] if lu else []))})
 out.sort(key=lambda r: (r["Уже в вашем файле"] == "", r["LinkedIn"] == "", r["Бренд / группа"].lower()))
 hdr = list(out[0])
 with open(OUT + ".csv", "w", newline="", encoding="utf-8") as f:
